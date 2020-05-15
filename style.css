@@ -1,7 +1,26 @@
-
+@font-face {
+font-family: 'Pixel-Art Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Pixel-Art Regular'), url('visitor1.woff') format('woff');
+}
 ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
-
+body {
+   background-image: url("rainCanyon.gif");
+ font-family: 'Pixel-Art Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Pixel-Art Regular'), url('visitor1.woff') format('woff');
+   height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+img {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  
+}
 .month {
   width: 100%;
  background: linear-gradient(red,black);
@@ -73,7 +92,7 @@ h1{
 }
 #title{
   color: white;
-  font-size: 10px;
+
   text-transform: uppercase;
   letter-spacing: 3px;
 }
