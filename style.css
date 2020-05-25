@@ -4,6 +4,9 @@ font-style: normal;
 font-weight: normal;
 src: local('Pixel-Art Regular'), url('visitor1.woff') format('woff');
 }
+html {
+    height: 100%;
+}
 ul {list-style-type: none;}
 body {
    background-image: url("rainCanyon.gif");
@@ -13,8 +16,9 @@ font-weight: normal;
 src: local('Pixel-Art Regular'), url('visitor1.woff') format('woff');
    height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ background-repeat: no-repeat;
+
+ background-size: cover;
   }
 img {
   image-rendering: pixelated;
@@ -23,7 +27,7 @@ img {
 }
 .month {
   width: 100%;
- background: linear-gradient(red,black);
+ background: linear-gradient(#1E5100,#1E5100);
   text-align: center;
 }
 
@@ -84,17 +88,14 @@ img {
   color: white !important
 }
 h1{
- padding: 70px 25px;
+
   width: 100%;
  
   text-align: center;
-
+color: white !important
 }
 #title{
-  color: white;
 
-  text-transform: uppercase;
-  letter-spacing: 3px;
 }
 .calender{
   width: 100%;
